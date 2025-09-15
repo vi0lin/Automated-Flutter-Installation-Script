@@ -124,8 +124,7 @@ sdkmanager "extras;intel;Hardware_Accelerated_Execution_Manager"
 
 macOS
 Installiere Xcode Command Line Tools: xcode-select --install.
-Für Emulator: Aktiviere Hardware-Beschleunigung in den Systemeinstellungen (falls Apple Silicon, verwende 
-ARM-Images).
+Für Emulator: Aktiviere Hardware-Beschleunigung in den Systemeinstellungen (falls Apple Silicon, verwende ARM-Images).
 Homebrew-Alternative für Platform-Tools: brew install android-platform-tools (nur für ADB/Fastboot, nicht 
 vollständig).
 
