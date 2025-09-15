@@ -1,6 +1,7 @@
 # Automated-Flutter-Installation-Script - DRAFT
 
 ## Purpose
+```
 The goal of this
 project is to simplify
 flutter in the shell
@@ -11,6 +12,7 @@ you can generate the
 corresponding iOS and Android
 APK on a Mac
 or Windows/Linux computer.
+```
 
 ## Notes for further processing
 sudo apt-get update -y && sudo apt-get upgrade -y;
