@@ -15,6 +15,7 @@ or Windows/Linux computer.
 ```
 
 ## Notes for further processing
+```
 sudo apt-get update -y && sudo apt-get upgrade -y;
 sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa
 sudo apt-get install libc6:amd64 libstdc++6:amd64 lib32z1 libbz2-1.0:amd64
@@ -35,8 +36,7 @@ flutter doctor
 flutter doctor -v
 
 sudo softwareupdate --install-rosetta --agree-to-license
-https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.35.3-stab
-le.zip
+https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_arm64_3.35.3-stable.zip
 https://storage.googleapis.com/flutter_infra_release/releases/stable/macos/flutter_macos_3.35.3-stable.zip
 unzip ~/Downloads/flutter_macos_arm64_3.35.3-stable.zip -d ~/development/
 export PATH=$HOME/development/flutter/bin:$PATH
@@ -52,8 +52,7 @@ flutter doctor
 flutter doctor
 flutter doctor -v
 
-https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.35.3-stable
-.zip
+https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.35.3-stable.zip
 %USERPROFILE% (C:\Users\{username}) or %LOCALAPPDATA% (C:\Users\{username}\AppData\Local
 PS C:\> Expand-Archive `
 -Path $env:USERPROFILE\Downloads\flutter_windows_3.35.3-stable.zip `
@@ -75,11 +74,10 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-
 source ~/.bashrc
 ~/.zshrc
 sdkmanager --update
-sdkmanager --licenses
-y
+sdkmanager --licenses -y
+
 sdkmanager "platform-tools"  # Android SDK Platform-Tools (ADB, Fastboot)
-sdkmanager "build-tools;35.0.0"  # Android SDK Build-Tools (neueste für API 35; passe Version an, falls nö
-tig)
+sdkmanager "build-tools;35.0.0"  # Android SDK Build-Tools (neueste für API 35; passe Version an, falls nötig)
 sdkmanager "platforms;android-35"  # Android SDK Platform, API 35
 sdkmanager "emulator"  # Android Emulator
 sdkmanager --list | grep build-tools
@@ -134,3 +132,4 @@ vollständig).
 sdkmanager --licenses
 sdkmanager --list | grep android-35
 sdkmanager --update
+```
