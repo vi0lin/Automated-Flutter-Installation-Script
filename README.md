@@ -1,7 +1,18 @@
 # Automated-Flutter-Installation-Script - DRAFT
 
-## Notes for further processing
+## Purpose
+The goal of this
+project is to simplify
+flutter in the shell
+and to make the
+build process platform- independent
+via command, so that
+you can generate the
+corresponding iOS and Android
+APK on a Mac
+or Windows/Linux computer.
 
+## Notes for further processing
 sudo apt-get update -y && sudo apt-get upgrade -y;
 sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa
 sudo apt-get install libc6:amd64 libstdc++6:amd64 lib32z1 libbz2-1.0:amd64
